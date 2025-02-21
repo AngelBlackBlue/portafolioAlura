@@ -21,12 +21,12 @@ body {
 .presentacion {
     display: flex;
     align-items: center;
-    margin: 5%;
+    margin: 10%;
     justify-content: space-between;
 }
 
 .presentacion__texto {
-    width: 615;
+    width: 615px;
 }
 
 .presentacion__texto__titulo{
@@ -43,4 +43,18 @@ body {
 .presentacion__botones {
     display: flex;
     justify-content: space-between;
+}
+
+.presentacion__botones_enlace{
+    width: 280px;
+    background-color: #22d4fd;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: montserrat, sans-serif ;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #000000;
+
 }
