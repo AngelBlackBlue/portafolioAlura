@@ -47,6 +47,9 @@ body {
 .presentacion__botones {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px
 }
 
 .presentacion__botones_enlace{
