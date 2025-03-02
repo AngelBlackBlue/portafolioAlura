@@ -4,7 +4,8 @@
 :root {
     --primary-color: #000000;
     --secundary-color: #f6f6f6;
-    --tertiary-color: #f6f6f6;
+    --tertiary-color: #22d4fd;
+    --quaternary-color: #272727;
     
     --primary-font: 'Krona One', sans-serif;
     --secundary-font: 'Montserrat', sans-serif;
@@ -18,8 +19,8 @@
 }
 
 body {
-    background-color: #000000;  
-    color: #f6f6f6; 
+    background-color: var(--primary-color);  
+    color: var(--secundary-color); 
     /* height: 100vh; */
     box-sizing: border-box;
 }
@@ -36,16 +37,16 @@ body {
 }
 
 .header__menu__link{
-    font-family: montserrat, sans-serif;
+    font-family: var(--secundary-font);
     font-size: 24px;
     font-weight: 600;
-    color: #22d4fd;
+    color: var(--tertiary-color);
     text-decoration: none;
     
 }
 
 .titulo-destaque {
-    color: #22d4fd;
+    color: var(--tertiary-color);
 }
 
 .presentacion {
@@ -65,13 +66,13 @@ body {
 
 .presentacion__texto__titulo{
     font-size: 36px;
-    font-family: krona one, sans-serif
+    font-family: var(--primary-font)
 
 }
 
 .presentacion__texto__descripcion{
     font-size: 24px;
-    font-family: montserrat, sans-serif ;
+    font-family: var(--secundary-font) ;
 }
 
 .presentacion__botones {
@@ -83,7 +84,7 @@ body {
 }
 
 .presentacion__botones__titulo{
-    font-family: krona one, sans-serif;
+    font-family: var(--primary-font);
     font-size: 24px;
     font-weight: 400;
 }
@@ -95,26 +96,26 @@ body {
     padding: 21.5px 0;
     border-radius: 8px;
     font-size: 24px;
-    font-family: montserrat, sans-serif ;
+    font-family: var(--secundary-font);
     font-weight: 600px;
     text-decoration: none;
-    color: #f6f6f6;
-    border: 2px solid #22d4fd;
+    color: var(--secundary-color);
+    border: 2px solid var(--tertiary-color);
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
 .presentacion__botones__enlace:hover{
-    background-color: #272727;  
+    background-color: var(--quaternary-color);  
 }
 
 .footer {
-    background-color: #22d4fd;
+    background-color: var(--tertiary-color);
     padding: 24px;
-    color: #000000;
+    color: var(--primary-color);
     text-align: center;
-    font-family: montserrat, sans-serif;
+    font-family: var(--secundary-font);
     font-size: 24px;
     font-weight: 400
 }
