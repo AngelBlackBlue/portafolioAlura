@@ -38,7 +38,7 @@ body {
 
 .header__menu__link{
     font-family: var(--secundary-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--tertiary-color);
     text-decoration: none;
@@ -65,13 +65,13 @@ body {
 }
 
 .presentacion__texto__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--primary-font)
 
 }
 
 .presentacion__texto__descripcion{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--secundary-font) ;
 }
 
@@ -85,7 +85,7 @@ body {
 
 .presentacion__botones__titulo{
     font-family: var(--primary-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -95,7 +95,7 @@ body {
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--secundary-font);
     font-weight: 600px;
     text-decoration: none;
@@ -112,10 +112,12 @@ body {
 
 .footer {
     background-color: var(--tertiary-color);
-    padding: 24px;
+    padding: 1.5rem;
     color: var(--primary-color);
     text-align: center;
     font-family: var(--secundary-font);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400
 }
+
+/* 1 rem = 16px */
