@@ -127,9 +127,17 @@ body {
 }
 
 @media (max-width: 1200px) {
+    .header {
+        padding: 10%;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+
+
     .presentacion {
-        flex-direction: column-reverse;
-      
+        flex-direction: column-reverse;      
     }
 }
 /* 1 rem = 16px */
