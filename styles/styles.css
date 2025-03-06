@@ -126,6 +126,10 @@ body {
     font-weight: 400
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
+    .presentacion {
+        flex-direction: column-reverse;
+      
+    }
 }
 /* 1 rem = 16px */
