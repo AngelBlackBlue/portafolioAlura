@@ -143,7 +143,10 @@ body {
 
     .presentacion__texto{
         width: auto;
-        
+    }
+
+    .presentacion__imagen{
+        width: auto;
     }
 }
 /* 1 rem = 16px */
